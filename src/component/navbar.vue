@@ -237,22 +237,22 @@ export default {
     // 页面跳转
     gotoSub (subItem) {
       this.isActive = !this.isActive
-      this.$router.push({name: subItem.val})
+      this.$router.push({name: subItem.val}).catch(err => {err})
     },
 
     // 页面跳转
     gotoItem (item) {
       if (item.subList[0].val) {
-        this.$router.push({name: item.subList[0].val})
+        this.$router.push({name: item.subList[0].val}).catch(err => {err})
       } else {
-        this.$router.push({name: item.subList[0].list[0].val})
+        this.$router.push({name: item.subList[0].list[0].val}).catch(err => {err})
       }
       
     },
 
     // 返回首页
     handleBacktoIndex () {
-      this.$router.push({name: 'index'})
+      this.$router.push({name: 'index'}).catch(err => {err})
     }
 
     

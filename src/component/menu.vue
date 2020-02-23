@@ -46,7 +46,7 @@ export default {
   methods: {
     goto (item) {
       this.$emit('goto', item.id)
-      this.$router.push({name: item.val})
+      this.$router.push({name: item.val}).catch(err => {err})
     }
   }
 }
