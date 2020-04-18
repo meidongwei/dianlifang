@@ -81,8 +81,8 @@ export default {
             },
             {
               id: 2,
-              name: '产品概念',
-              val: 'concept'
+              name: '核心优势',
+              val: 'advantage'
             },
             {
               id: 3,
@@ -93,27 +93,27 @@ export default {
         },
         {
           id: 2,
-          name: '业务',
+          name: 'GRES',
           subList: [
             {
               id: 1,
-              name: '我们是谁',
-              val: 'aboutme'
+              name: '什么是GRES',
+              val: 'gresW'
             },
             {
               id: 2,
-              name: '业务领域',
-              val: 'areas'
+              name: 'GRES价值',
+              val: 'gresJZ'
             },
             {
               id: 3,
-              name: '主要特点',
-              val: 'features'
+              name: 'GRES静态发动机',
+              val: 'gresJT'
             },
             {
               id: 4,
-              name: 'ESS 应用程序',
-              val: 'ESSapp'
+              name: 'GRES集装箱',
+              val: 'gresX'
             }
           ]
         },
@@ -123,33 +123,28 @@ export default {
           subList: [
             {
               id: 301,
-              name: '锂电系统',
+              name: 'MPCS',
               list: [
                 {
                   id: 1,
-                  name: '储能电池',
+                  name: 'MPCS',
                   val: 'storeEnergyBattery'
                 },
                 {
                   id: 2,
-                  name: '标准化模组',
+                  name: '非隔离变型MPCS',
                   val: 'standardizedModule'
                 },
                 {
                   id: 3,
-                  name: 'BMS',
+                  name: '隔离变型MPCS',
                   val: 'bms'
-                },
-                {
-                  id: 4,
-                  name: '电池机柜',
-                  val: 'batteryCabinet'
                 }
               ]
             },
             {
               id: 302,
-              name: '储能产品',
+              name: '电池储能系统',
               list: [
                 {
                   id: 5,
@@ -177,6 +172,11 @@ export default {
                   val: 'pcs'
                 }
               ]
+            },
+            {
+              id: 303,
+              name: 'EMS',
+              list: []
             }
           ]
         },

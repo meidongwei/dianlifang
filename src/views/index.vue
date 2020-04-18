@@ -95,7 +95,7 @@
 </template>
 
 <script>
-import SlidePic from '@/component/slidePic'
+import SlidePic from '@/components/slidePic'
 export default {
   components: {
     SlidePic

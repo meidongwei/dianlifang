@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Hero from '@/component/hero'
-import Menu from '@/component/menu'
+import Hero from '@/components/hero'
+import Menu from '@/components/menu'
 export default {
   components: {
     Hero,

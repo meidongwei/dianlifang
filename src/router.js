@@ -1,38 +1,37 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import index from '@/pages/index'
+import index from '@/views/index'
 
-import overview from '@/pages/overview'
-import intro from '@/pages/overview/intro'
-import concept from '@/pages/overview/concept'
-import location from '@/pages/overview/location'
+import overview from '@/views/overview'
+import intro from '@/views/overview/intro'
+import advantage from '@/views/overview/advantage'
+import location from '@/views/overview/location'
 
-import business from '@/pages/business'
-import aboutme from '@/pages/business/aboutme'
-import areas from '@/pages/business/areas'
-import features from '@/pages/business/features'
-import ESSapp from '@/pages/business/ESSapp'
+import gres from '@/views/gres'
+import gresW from '@/views/gres/gresW'
+import gresJZ from '@/views/gres/gresJZ'
+import gresJT from '@/views/gres/gresJT'
+import gresX from '@/views/gres/gresX'
 
-import products from '@/pages/products'
-import storeEnergy from '@/pages/products/storeEnergy'
-import MEMS from '@/pages/products/MEMS'
-import allinone from '@/pages/products/allinone'
-import homeStoreEnergy from '@/pages/products/homeStoreEnergy'
-import pcs from '@/pages/products/pcs'
-import bms from '@/pages/products/bms'
-import batteryCabinet from '@/pages/products/batteryCabinet'
-import standardizedModule from '@/pages/products/standardizedModule'
-import storeEnergyBattery from '@/pages/products/storeEnergyBattery'
+import products from '@/views/products'
+import storeEnergy from '@/views/products/storeEnergy'
+import MEMS from '@/views/products/MEMS'
+import allinone from '@/views/products/allinone'
+import homeStoreEnergy from '@/views/products/homeStoreEnergy'
+import pcs from '@/views/products/pcs'
+import bms from '@/views/products/bms'
+import standardizedModule from '@/views/products/standardizedModule'
+import storeEnergyBattery from '@/views/products/storeEnergyBattery'
 
-import references from '@/pages/references'
-import planning from '@/pages/references/planning'
-import reference from '@/pages/references/reference'
+import references from '@/views/references'
+import planning from '@/views/references/planning'
+import reference from '@/views/references/reference'
 
-import support from '@/pages/support'
-import news from '@/pages/support/news'
-import dataDownload from '@/pages/support/dataDownload'
-import certification from '@/pages/support/certification'
-import qualityManagement from '@/pages/support/qualityManagement'
+import support from '@/views/support'
+import news from '@/views/support/news'
+import dataDownload from '@/views/support/dataDownload'
+import certification from '@/views/support/certification'
+import qualityManagement from '@/views/support/qualityManagement'
 
 Vue.use(Router)
 
@@ -59,9 +58,9 @@ export default new Router({
           component: intro
         },
         {
-          path: 'concept',
-          name: 'concept',
-          component: concept
+          path: 'advantage',
+          name: 'advantage',
+          component: advantage
         },
         {
           path: 'location',
@@ -71,30 +70,30 @@ export default new Router({
       ]
     },
     {
-      path: '/business',
-      name: 'business',
-      component: business,
-      redirect: 'business/aboutme',
+      path: '/gres',
+      name: 'gres',
+      component: gres,
+      redirect: 'gres/gresW',
       children: [
         {
-          path: 'aboutme',
-          name: 'aboutme',
-          component: aboutme
+          path: 'gresW',
+          name: 'gresW',
+          component: gresW
         },
         {
-          path: 'areas',
-          name: 'areas',
-          component: areas
+          path: 'gresJZ',
+          name: 'gresJZ',
+          component: gresJZ
         },
         {
-          path: 'features',
-          name: 'features',
-          component: features
+          path: 'gresJT',
+          name: 'gresJT',
+          component: gresJT
         },
         {
-          path: 'ESSapp',
-          name: 'ESSapp',
-          component: ESSapp
+          path: 'gresX',
+          name: 'gresX',
+          component: gresX
         }
       ]
     },
@@ -133,11 +132,6 @@ export default new Router({
           path: 'bms',
           name: 'bms',
           component: bms
-        },
-        {
-          path: 'batteryCabinet',
-          name: 'batteryCabinet',
-          component: batteryCabinet
         },
         {
           path: 'standardizedModule',

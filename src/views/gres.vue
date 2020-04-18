@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="应用案例" subtitle="小标题" theme="is-warning"></Hero>
+    <Hero title="业务" subtitle="小标题" theme="is-info"></Hero>
 
     <div class="container m-con" style="margin-bottom: 50px;">
       <div class="columns">
@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import Hero from '@/component/hero'
-import Menu from '@/component/menu'
+import Hero from '@/components/hero'
+import Menu from '@/components/menu'
 export default {
   components: {
     Hero,
@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     menuList () {
-      return JSON.parse(localStorage.getItem('navbarList'))[3].subList
+      return JSON.parse(localStorage.getItem('navbarList'))[1].subList
     }
   },
   methods: {
@@ -42,8 +42,4 @@ export default {
 </script>
 
 <style lang="css">
-/* .container {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-} */
 </style>
