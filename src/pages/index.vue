@@ -20,13 +20,22 @@
           </h1>
           <div class="columns">
             <div class="column">
-              <div></div>
+              <div>
+                <img src="../../static/GRES.png" alt="GRES系列">
+                <h3>GRES系列</h3>
+              </div>
             </div>
             <div class="column">
-              <div></div>
+              <div>
+                <img src="../../static/PCS.png" alt="MPCS系列">
+                <h3>MPCS系列</h3>
+              </div>
             </div>
             <div class="column">
-              <div></div>
+              <div>
+                <img src="../../static/guishi.png" alt="储能锂电池系统系列">
+                <h3>储能锂电池系统系列</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -48,23 +57,20 @@
           <div class="columns">
             <div class="column">
               <div>
-                <h2 class="subtitle">愿景</h2>
-                <p>电力转换应用方面的全球化公司</p>
-                <p>电源转换应用方面的第一品牌</p>
-              </div>
-            </div>
-            <div class="column">
-              <div>
                 <h2 class="subtitle">核心价值</h2>
-                <p>为人类的繁荣与电力电子的未来创造价值</p>
+                <p>以技术创新为驱动，以客户需求为导向，推动清洁能源友好利用、创造低碳环保未来生活。</p>
               </div>
             </div>
             <div class="column">
               <div>
-                <h2 class="subtitle">核心技术</h2>
-                <p>储能系统控制技术</p>
-                <p>静态和动态电网支持技术</p>
-                <p>微电网逆变器技术</p>
+                <h2 class="subtitle">使命</h2>
+                <p>打造安全稳定、长寿命的储能系统应用及风光储、光储充、微电网、并离网等一体化储能解决方案。</p>
+              </div>
+            </div>
+            <div class="column">
+              <div>
+                <h2 class="subtitle">愿景</h2>
+                <p>成为行业内创新型智慧储能系统的优秀研发商与供应商。</p>
               </div>
             </div>
           </div>
@@ -117,6 +123,12 @@ export default {
       height: 300px;
       width: 100%;
       background-color: #f5f5f5;
+      img {
+        height: 80%;
+      }
+      h3 {
+        font-size: 20px;
+      }
     }
   }
 }
@@ -131,6 +143,7 @@ export default {
       width: 100%;
       background-color: #f5f5f5;
       padding-top: 80px;
+      padding: 80px 80px 0 80px;
     }
   }
 }
