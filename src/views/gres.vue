@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="业务" subtitle="小标题" theme="is-info"></Hero>
+    <Hero title="业务" subtitle="小标题" theme="heroBg"></Hero>
 
     <div class="container m-con" style="margin-bottom: 50px;">
       <div class="columns">
@@ -41,5 +41,9 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.heroBg {
+  background: url('../../static/gresBg.jpg');
+  background-size: cover;
+}
 </style>

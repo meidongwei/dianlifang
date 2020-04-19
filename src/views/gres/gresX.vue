@@ -1,9 +1,11 @@
 <template>
   <div class="content m-con">
     <h3>GRES集装箱储能系统</h3>
+    <img class="jzx-img" src="../../../static/GRES.png" alt="">
     <p>
       GRES集装箱储能系统将电池、变流器及​能源管理系统（EMS）集成在标准集装箱内，是一种新型储能方式，具有建设周期短、安全性能高、模块化程度高、便于运输和安装等点。拥有独立的热管理系统和环境监控系统，能与外部电网进行能量交换，同时与外部微电网控制中心进行通讯，协调工作。
     </p>
+    <hr>
     <h4>产品特点 | Feature</h4>
     <ul>
       <li>环境适应性强、安装简便、可扩展性高</li>
@@ -15,7 +17,9 @@
       <li>多种工作方式灵活设定</li>
       <li>支持本地与远程监控</li>
     </ul>
+    <hr>
     <h4>技术参数 | Specification</h4>
+    <img src="../../../static/jzx-cs.png" alt="">
   </div>
 </template>
 
@@ -25,4 +29,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.jzx-img {
+  width: 500px;
+  padding-bottom: 50px;
+}
+hr {
+  margin: 50px 0;
+}
 </style>

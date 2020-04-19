@@ -1,10 +1,10 @@
 <template>
   <div>
     <!-- hero -->
-    <section class="hero is-primary is-large m-header">
+    <section class="hero m-header">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">科技 · 卓越 · 领航 · 追梦</h1>
+          <h1 class="title">科技 · 卓越 · 领航</h1>
           <h2 class="subtitle"></h2>
         </div>
       </div>
@@ -104,20 +104,29 @@ export default {
 </script>
 
 <style lang="scss">
-.m-header.is-primary {
+.m-header {
   background: url('../../static/hero.jpg');
   background-size: cover;
   background-position: center center;
-
+  height: 600px;
+  .hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .title, .subtitle {
-    color: #373737;
+    color: white;
     text-align: center;
+    font-size: 50px;
   }
 }
 
-@media(min-width: 768px) {
-  .m-header.is-primary .title {
-    font-size: 50px;
+@media(max-width: 768px) {
+  .m-header {
+    height: 200px;
+    .title {
+      font-size: 28px;
+    }
   }
 }
 

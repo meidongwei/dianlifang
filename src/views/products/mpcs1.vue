@@ -1,6 +1,7 @@
 <template>
   <div class="content m-con">
     <h3>MPCS</h3>
+    <img class="mpcs-img" src="../../../static/PCS.png" alt="">
     <p>
       模块化多功能储能变流器（MPCS）通过控制储能电池或光伏组件的充电和放电过程，进行交直流的双向变换。MPCS 由多个 DC/AC 双向变流模块、电子开关、隔离变压器、监控单元等构成。MPCS通过通讯接收后台控制指令，根据功率指令的符号及大小控制变流器对电池进行充电或放电，实现对电网有功功率及无功功率的调节。 MPCS 通过 CAN 接口与 BMS 通讯，获取电池组状态信息，可实现对电池的保护性充放电，确保电池运行安全。
     </p>
@@ -25,5 +26,9 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.mpcs-img {
+  width: 500px;
+  padding-bottom: 50px;
+}
 </style>

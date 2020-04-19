@@ -1,9 +1,11 @@
 <template>
   <div class="content m-con">
     <h3>GRES静态发动机</h3>
+    <img class="jtfdj-img" src="../../../static/jtfdj.jpg" alt="">
     <p>
       静态发电机系统，可以很好的替代油机，用作后备电源使用，市电中断时，通过蓄电池组放电供负载使用，并且具有绿色、环保、低噪声的特点。它是集锂电池和双向储能变流器于一体的发电机。通过储能变流器可以将锂电池内电量供给负荷或电网，还可以将电网或其他能源电量给锂电池充电。静态发电机与电池BMS和上级设备进行通讯，对电池进行充放电管理和保护。
     </p>
+    <hr>
     <h4>产品特点 ｜ Feature</h4>
     <ul>
       <li>无机械传动结构、无磨损、无保养、无水冷、易维护</li>
@@ -20,7 +22,9 @@
       <li>快速响应、无启动时间</li>
       <li>移动式，方便更换使用地点</li>
     </ul>
+    <hr>
     <h4>技术参数 | Specification</h4>
+    <img src="../../../static/jtfdj-cs.png" alt="">
   </div>
 </template>
 
@@ -29,5 +33,12 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.jtfdj-img {
+  width: 500px;
+  padding-bottom: 50px;
+}
+hr {
+  margin: 50px 0;
+}
 </style>
