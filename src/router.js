@@ -14,14 +14,14 @@ import gresJT from '@/views/gres/gresJT'
 import gresX from '@/views/gres/gresX'
 
 import products from '@/views/products'
-import storeEnergy from '@/views/products/storeEnergy'
-import MEMS from '@/views/products/MEMS'
-import allinone from '@/views/products/allinone'
-import homeStoreEnergy from '@/views/products/homeStoreEnergy'
-import pcs from '@/views/products/pcs'
+import btyEnergy from '@/views/products/btyEnergy'
 import bms from '@/views/products/bms'
-import standardizedModule from '@/views/products/standardizedModule'
-import storeEnergyBattery from '@/views/products/storeEnergyBattery'
+import guiEnergy from '@/views/products/guiEnergy'
+import qianEnergy from '@/views/products/qianEnergy'
+import homeEnergy from '@/views/products/homeEnergy'
+import geliMpcs from '@/views/products/geliMpcs'
+import feigeliMpcs from '@/views/products/feigeliMpcs'
+import mpcs1 from '@/views/products/mpcs1'
 
 import references from '@/views/references'
 import planning from '@/views/references/planning'
@@ -101,32 +101,12 @@ export default new Router({
       path: '/products',
       name: 'products',
       component: products,
-      redirect: 'products/storeEnergy',
+      redirect: 'products/btyEnergy',
       children: [
         {
-          path: 'storeEnergy',
-          name: 'storeEnergy',
-          component: storeEnergy
-        },
-        {
-          path: 'MEMS',
-          name: 'MEMS',
-          component: MEMS
-        },
-        {
-          path: 'allinone',
-          name: 'allinone',
-          component: allinone
-        },
-        {
-          path: 'homeStoreEnergy',
-          name: 'homeStoreEnergy',
-          component: homeStoreEnergy
-        },
-        {
-          path: 'pcs',
-          name: 'pcs',
-          component: pcs
+          path: 'btyEnergy',
+          name: 'btyEnergy',
+          component: btyEnergy
         },
         {
           path: 'bms',
@@ -134,14 +114,34 @@ export default new Router({
           component: bms
         },
         {
-          path: 'standardizedModule',
-          name: 'standardizedModule',
-          component: standardizedModule
+          path: 'guiEnergy',
+          name: 'guiEnergy',
+          component: guiEnergy
         },
         {
-          path: 'storeEnergyBattery',
-          name: 'storeEnergyBattery',
-          component: storeEnergyBattery
+          path: 'qianEnergy',
+          name: 'qianEnergy',
+          component: qianEnergy
+        },
+        {
+          path: 'homeEnergy',
+          name: 'homeEnergy',
+          component: homeEnergy
+        },
+        {
+          path: 'geliMpcs',
+          name: 'geliMpcs',
+          component: geliMpcs
+        },
+        {
+          path: 'feigeliMpcs',
+          name: 'feigeliMpcs',
+          component: feigeliMpcs
+        },
+        {
+          path: 'mpcs1',
+          name: 'mpcs1',
+          component: mpcs1
         }
       ]
     },

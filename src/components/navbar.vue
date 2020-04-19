@@ -38,7 +38,7 @@
                       @click="gotoSub(sub2)">
                       {{ sub2.name }}
                     </a>
-                    <hr class="navbar-divider" v-if="sub.id === 301">
+                    <hr class="navbar-divider" v-if="sub.id === 301 || sub.id === 302">
                   </div>
                 </div>
               </div>
@@ -128,17 +128,17 @@ export default {
                 {
                   id: 1,
                   name: 'MPCS',
-                  val: 'storeEnergyBattery'
+                  val: 'mpcs1'
                 },
                 {
                   id: 2,
                   name: '非隔离变型MPCS',
-                  val: 'standardizedModule'
+                  val: 'feigeliMpcs'
                 },
                 {
                   id: 3,
                   name: '隔离变型MPCS',
-                  val: 'bms'
+                  val: 'geliMpcs'
                 }
               ]
             },
@@ -148,35 +148,41 @@ export default {
               list: [
                 {
                   id: 5,
-                  name: '储能产品系列',
-                  val: 'storeEnergy'
+                  name: '电池储能系统',
+                  val: 'btyEnergy'
                 },
                 {
                   id: 6,
-                  name: 'MEMS 储能系统',
-                  val: 'MEMS'
+                  name: 'BMS',
+                  val: 'bms'
                 },
                 {
                   id: 7,
-                  name: 'All-in-one 储能柜',
-                  val: 'allinone'
+                  name: '柜式储能系统',
+                  val: 'guiEnergy'
                 },
                 {
                   id: 8,
-                  name: '家用便携储能',
-                  val: 'homeStoreEnergy'
+                  name: '嵌入式储能系统',
+                  val: 'qianEnergy'
                 },
                 {
                   id: 9,
-                  name: 'PCS',
-                  val: 'pcs'
+                  name: 'ERA家用储能系统',
+                  val: 'homeEnergy'
                 }
               ]
             },
             {
               id: 303,
               name: 'EMS',
-              list: []
+              list: [
+                {
+                  id: 10,
+                  name: '能源管理系统EMS',
+                  val: ''
+                }
+              ]
             }
           ]
         },

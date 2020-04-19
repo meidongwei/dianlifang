@@ -4,7 +4,7 @@
     <section class="hero is-primary is-large m-header">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">图虫创意，编号：216913578149806083</h1>
+          <h1 class="title">科技 · 卓越 · 领航 · 追梦</h1>
           <h2 class="subtitle"></h2>
         </div>
       </div>
@@ -106,10 +106,18 @@ export default {
 <style lang="scss">
 .m-header.is-primary {
   background: url('../../static/hero.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
 
   .title, .subtitle {
     color: #373737;
+    text-align: center;
+  }
+}
+
+@media(min-width: 768px) {
+  .m-header.is-primary .title {
+    font-size: 50px;
   }
 }
 
