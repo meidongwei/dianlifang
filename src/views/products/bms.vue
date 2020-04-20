@@ -1,6 +1,19 @@
 <template>
   <div class="content m-con">
-    <h3>BMS</h3>
+    <h3>BMS-电池管理系统</h3>
+    <p>
+      电池管理系统是储能系统的核心部件之一，优秀的BMS可以保证单体电芯安全、性能、寿命等方面的表现，有效保护电池过充、过放、过流等，同时避免电池在长时间、高倍率充放电情况下导致的单体电芯不均衡、温度分布不均等问题，保障整个系统的安全、可靠、高效运转。
+    </p>
+    <hr>
+    <img src="../../../static/bms-zygn.png" alt="">
+    <hr>
+    <h3>双向主动均衡</h3>
+    <ul>
+      <li>能量转移式主动均衡；</li>
+      <li>均衡精度小于2%，均衡能力达到额定输出的10%；</li>
+      <li>单体电芯容量变化不影响系统容量；</li>
+    </ul>
+    <hr>
     <div class="table-container">
       <table class="table is-bordered">
         <thead>

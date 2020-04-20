@@ -1,6 +1,6 @@
 <template>
   <div class="content m-con">
-    <h3>家用便携储能</h3>
+    <h3>嵌入式储能系统</h3>
   </div>
 </template>
 

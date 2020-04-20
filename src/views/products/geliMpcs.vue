@@ -1,8 +1,11 @@
 <template>
   <div class="content m-con">
     <h3>隔离变型MPCS</h3>
-    
-
+    <h4>电路框图</h4>
+    <img src="../../../static/geli-dianlu.png" alt="">
+    <hr>
+    <h4>产品参数 | Parameter</h4>
+    <img src="../../../static/geli-canshu.png" alt="">
   </div>
 </template>
 
@@ -11,5 +14,8 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+hr {
+  margin: 50px 0;
+}
 </style>

@@ -108,7 +108,7 @@ export default {
   background: url('../../static/hero.jpg');
   background-size: cover;
   background-position: center center;
-  height: 600px;
+  height: 680px;
   .hero-body {
     display: flex;
     justify-content: center;
