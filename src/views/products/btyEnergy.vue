@@ -5,7 +5,7 @@
     电立方电池系统选取国际市场顶尖性能电芯，解决客户不同应用场景需求。内部主要安装电池模组、双向主动均衡BMS电池管理系统及电气保护部件等。机柜结构科学、机械强度高，模组安装维护便捷，整体结构最大程度保证系统的可靠性与安全性的同时做到外观美观大方。系统搭载可视化人机交互界面，实时监控系统运行状态、单体电芯状态。
   </p>
   <hr>
-  <div>
+  <div class="m-bty">
     <div class="m-bty-cell">
       <img src="../../../static/d-1.png" alt="">
       <h4>结构设计</h4>
@@ -55,10 +55,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media (min-width: 768px) {
+  .m-bty {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .m-bty-cell {
+    width: 50%;
+  }
+}
+
 .m-bty-cell {
+  text-align: center;
+  padding: 20px;
   img {
     margin-bottom: 20px;
-    // width: 300px;
+    width: 160px;
   }
 }
 </style>

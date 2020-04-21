@@ -3,7 +3,7 @@
     <figure class="image is-2by1">
       <img :src="imgUrl" alt="">
     </figure>
-    <div class="m-tabs-desktop">
+    <!-- <div class="m-tabs-desktop">
       <div class="container">
         <ul>
           <li :class="{active: index === nowIndex}"
@@ -14,7 +14,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="m-tabs-mobile">
       <a href="javascript:;" :class="{active: index === nowIndex}"
         v-for="(item, index) in tabList" :keys="item.id"
@@ -25,12 +25,12 @@
 </template>
 
 <script>
-import Img1 from '../../static/maldives-1.jpg'
-import Img2 from '../../static/maldives-2.jpg'
-import Img3 from '../../static/maldives-3.jpg'
-import Img4 from '../../static/maldives-4.jpg'
-import Img5 from '../../static/maldives-5.jpeg'
-import Img6 from '../../static/maldives-6.jpg'
+import Img1 from '../../static/1.jpg'
+import Img2 from '../../static/2.jpg'
+import Img3 from '../../static/3.jpg'
+// import Img4 from '../../static/maldives-4.jpg'
+// import Img5 from '../../static/maldives-5.jpeg'
+// import Img6 from '../../static/maldives-6.jpg'
 export default {
   data () {
     return {
@@ -52,21 +52,21 @@ export default {
           name: '储能系统 SAVEEN MG 多功能混合储能变流器',
           url: Img3
         },
-        {
-          id: 4,
-          name: 'STABLEEN 工业不可断电源',
-          url: Img4
-        },
-        {
-          id: 5,
-          name: 'APOLLEEN 光伏逆变器',
-          url: Img5
-        },
-        {
-          id: 6,
-          name: 'SAVEEN 燃料电池逆变器',
-          url: Img6
-        }
+        // {
+        //   id: 4,
+        //   name: 'STABLEEN 工业不可断电源',
+        //   url: Img4
+        // },
+        // {
+        //   id: 5,
+        //   name: 'APOLLEEN 光伏逆变器',
+        //   url: Img5
+        // },
+        // {
+        //   id: 6,
+        //   name: 'SAVEEN 燃料电池逆变器',
+        //   url: Img6
+        // }
       ]
     }
   },
@@ -90,7 +90,7 @@ export default {
   }
 }
 .m-tabs-mobile {
-  display: none;
+  // display: none;
 }
 
 .m-tabs-desktop ul {
@@ -118,7 +118,7 @@ export default {
 .m-tabs-desktop ul li a:hover {
   color: #428bca;
 }
-@media (max-width: 1024px) {
+// @media (max-width: 1024px) {
   .m-tabs-desktop {
     display: none;
   }
@@ -141,5 +141,5 @@ export default {
     background-color: #aaaaaa;
     border: 1px solid #aaaaaa;
   }
-}
+// }
 </style>

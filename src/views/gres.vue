@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="业务" subtitle="小标题" theme="heroBg"></Hero>
+    <Hero title="GRES" subtitle="小标题" theme="heroBg"></Hero>
 
     <div class="container m-con" style="margin-bottom: 50px;">
       <div class="columns">

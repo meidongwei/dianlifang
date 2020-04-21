@@ -14,7 +14,11 @@
       <li>单体电芯容量变化不影响系统容量；</li>
     </ul>
     <hr>
-    <div class="table-container">
+    <h4>BMS三级管理架构</h4>
+    <img class="sanji" src="../../../static/3ji.png" alt="">
+    <hr>
+    <img class="bms-cs" src="../../../static/bms-cs.png" alt="">
+    <!-- <div class="table-container">
       <table class="table is-bordered">
         <thead>
           <tr class="is-selected">
@@ -65,7 +69,7 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -74,5 +78,11 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.sanji {
+  width: 300px;
+}
+.bms-cs {
+  width: 600px;
+}
 </style>
