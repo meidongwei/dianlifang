@@ -22,6 +22,7 @@ import homeEnergy from '@/views/products/homeEnergy'
 import geliMpcs from '@/views/products/geliMpcs'
 import feigeliMpcs from '@/views/products/feigeliMpcs'
 import mpcs1 from '@/views/products/mpcs1'
+import ems from '@/views/products/ems'
 
 import references from '@/views/references'
 import planning from '@/views/references/planning'
@@ -142,6 +143,11 @@ export default new Router({
           path: 'mpcs1',
           name: 'mpcs1',
           component: mpcs1
+        },
+        {
+          path: 'ems',
+          name: 'ems',
+          component: ems
         }
       ]
     },

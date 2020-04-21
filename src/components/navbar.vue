@@ -180,7 +180,7 @@ export default {
                 {
                   id: 10,
                   name: '能源管理系统EMS',
-                  val: ''
+                  val: 'ems'
                 }
               ]
             }
