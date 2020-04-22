@@ -25,7 +25,6 @@ import mpcs1 from '@/views/products/mpcs1'
 import ems from '@/views/products/ems'
 
 import references from '@/views/references'
-import planning from '@/views/references/planning'
 import reference from '@/views/references/reference'
 
 import support from '@/views/support'
@@ -155,13 +154,8 @@ export default new Router({
       path: '/references',
       name: 'references',
       component: references,
-      redirect: 'references/planning',
+      redirect: 'references/reference',
       children: [
-        {
-          path: 'planning',
-          name: 'planning',
-          component: planning
-        },
         {
           path: 'reference',
           name: 'reference',

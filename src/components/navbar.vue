@@ -192,11 +192,6 @@ export default {
           subList: [
             {
               id: 1,
-              name: '跟踪记录和计划',
-              val: 'planning'
-            },
-            {
-              id: 2,
               name: '应用案例',
               val: 'reference'
             }
