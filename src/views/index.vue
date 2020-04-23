@@ -80,7 +80,7 @@
 
 
     <!-- 信息展示 -->
-    <section class="hero is-primary is-large is-bold">
+    <section class="hero is-large is-bold m-infoshow">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -162,6 +162,15 @@ export default {
       padding-top: 80px;
       padding: 80px 80px 0 80px;
     }
+  }
+}
+.m-infoshow {
+  background: url('../../static/indexd.jpg');
+  background-size: cover;
+  .title {
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px black;
   }
 }
 </style>

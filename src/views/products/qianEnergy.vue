@@ -20,13 +20,14 @@
     <h4>应用场景︱Application</h4>
     <img class="gui-yycj" src="../../../static/gui-yycj.png" alt="">
     <hr>
-    <h4>+-192V</h4>
+    <h4>产品参数 | Parameter</h4>
+    <h4>±192V</h4>
     <img class="qian192" src="../../../static/qian192.png" alt="">
     <hr>
-    <h4>+-224V</h4>
+    <h4>224V</h4>
     <img class="qian224" src="../../../static/qian224.png" alt="">
     <hr>
-    <h4>+-48V</h4>
+    <h4>48V</h4>
     <img class="qian48" src="../../../static/qian48.png" alt="">
   </div>
 </template>

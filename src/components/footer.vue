@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p class="copyright">
-          Copyright © 2017-2018 <strong>电立方</strong><br>
+          Copyright © 2017-2020 <strong>电立方</strong><br>
           冀ICP备88888888号&nbsp;&nbsp;
           河北电立方新能源科技有限公司版权所有<br>
         </p>

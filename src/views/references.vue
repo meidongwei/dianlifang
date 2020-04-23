@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="应用案例" subtitle="小标题" theme="is-warning"></Hero>
+    <Hero title="应用案例" subtitle="小标题" theme="heroBg"></Hero>
 
     <div class="container m-con" style="margin-bottom: 50px;">
       <div class="columns">
@@ -41,9 +41,10 @@ export default {
 }
 </script>
 
-<style lang="css">
-/* .container {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-} */
+<style lang="css" scoped>
+.heroBg {
+  background: url('../../static/jycn.jpg');
+  background-size: cover;
+  background-position: center 70%;
+}
 </style>

@@ -32,7 +32,7 @@
                 <!-- 带标题的子菜单 -->
                 <div v-if="item.id === 3">
                   <div v-for="sub in item.subList" :key="sub.id">
-                    <div class="subTitle">{{ sub.name }}</div>
+                    <!-- <div class="subTitle">{{ sub.name }}</div> -->
                     <a href="javascript:;" class="navbar-item"
                       v-for="sub2 in sub.list" :key="sub2.id"
                       @click="gotoSub(sub2)">
@@ -199,27 +199,12 @@ export default {
         },
         {
           id: 5,
-          name: '客户支持',
+          name: '联系我们',
           subList: [
             {
               id: 1,
-              name: '新闻',
-              val: 'news'
-            },
-            {
-              id: 2,
-              name: '数据下载',
-              val: 'dataDownload'
-            },
-            {
-              id: 3,
-              name: '认证',
-              val: 'certification'
-            },
-            {
-              id: 4,
-              name: '质量管理',
-              val: 'qualityManagement'
+              name: '联系我们',
+              val: 'contact'
             }
           ]
         }

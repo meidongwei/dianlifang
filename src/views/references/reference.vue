@@ -4,7 +4,7 @@
     <div class="bd-book-content m-con">
       <header class="block bd-book-header">
         <strong class="tag is-success">New!</strong>
-        <h3 class="title">上海光储充一体化充电站项目 😲</h3>
+        <h3 class="title">上海光储充一体化充电站项目</h3>
       </header>
       <div class="block bd-book-description is-size-5 content">
         <img style="width: 600px;" src="../../../static/anli1.png" alt="">
@@ -69,7 +69,7 @@
 
     <div class="bd-book-content m-con">
       <header class="block bd-book-header">
-        <h3 class="title">俄罗斯政府大楼电池储能系统替代油机 😲</h3>
+        <h3 class="title">俄罗斯政府大楼电池储能系统替代油机</h3>
       </header>
       <div class="block bd-book-description is-size-5 content">
         <img style="width: 600px;" src="../../../static/anli4.png" alt="">
@@ -89,7 +89,7 @@
 
     <div class="bd-book-content m-con">
       <header class="block bd-book-header">
-        <h3 class="title">拉萨兴业银行光储一体化后备电源系统😲</h3>
+        <h3 class="title">拉萨兴业银行光储一体化后备电源系统</h3>
       </header>
       <div class="block bd-book-description is-size-5 content">
         <img style="width: 400px;" src="../../../static/anli5.png" alt="">

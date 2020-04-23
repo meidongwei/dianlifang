@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero title="客户支持" subtitle="小标题" theme="is-danger"></Hero>
+    <Hero title="联系我们" subtitle="小标题" theme="heroBg"></Hero>
 
     <div class="container m-con" style="margin-bottom: 50px;">
       <div class="columns">
@@ -41,5 +41,10 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+.heroBg {
+  background: url('../../static/conta.jpg');
+  background-size: cover;
+  background-position: center 70%;
+}
 </style>

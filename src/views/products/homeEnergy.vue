@@ -32,6 +32,7 @@
     <hr>
     <img src="../../../static/era-kuangtu.png" alt="">
     <hr>
+    <h4>产品参数 | Parameter</h4>
     <img class="era-cs" src="../../../static/era-cs.png" alt="">
     
 

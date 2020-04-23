@@ -28,10 +28,7 @@ import references from '@/views/references'
 import reference from '@/views/references/reference'
 
 import support from '@/views/support'
-import news from '@/views/support/news'
-import dataDownload from '@/views/support/dataDownload'
-import certification from '@/views/support/certification'
-import qualityManagement from '@/views/support/qualityManagement'
+import contact from '@/views/support/contact'
 
 Vue.use(Router)
 
@@ -167,27 +164,12 @@ export default new Router({
       path: '/support',
       name: 'support',
       component: support,
-      redirect: 'support/news',
+      redirect: 'support/contact',
       children: [
         {
-          path: 'news',
-          name: 'news',
-          component: news
-        },
-        {
-          path: 'dataDownload',
-          name: 'dataDownload',
-          component: dataDownload
-        },
-        {
-          path: 'certification',
-          name: 'certification',
-          component: certification
-        },
-        {
-          path: 'qualityManagement',
-          name: 'qualityManagement',
-          component: qualityManagement
+          path: 'contact',
+          name: 'contact',
+          component: contact
         }
       ]
     }

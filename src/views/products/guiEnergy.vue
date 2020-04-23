@@ -21,13 +21,19 @@
     <h4>应用场景︱Application</h4>
     <img class="gui-yycj" src="../../../static/gui-yycj.png" alt="">
     <hr>
-    <h4>磷酸铁锂电池VS铅酸电池</h4>
-    <img src="../../../static/gui-vs.png" alt="">
+    <h4>产品参数 | Parameter</h4>
+    <h4>能量型 100Ah系统</h4>
+    <img class="gui-cs" src="../../../static/neng100.png" alt="">
     <hr>
-    <img class="gui-cs" src="../../../static/gui-cs.png" alt="">
-    <p>* 以上表格数据基于对220V，1000Ah 储能系统的计算。<br>
-* 半小时以内后备电源，磷酸铁锂电池高倍率的性能可将配置容量进一步减少，成本较铅酸电池将更具竞争力。
-</p>
+    <h4>能量型 120Ah系统</h4>
+    <img class="gui-cs" src="../../../static/neng120.png" alt="">
+    <hr>
+    <h4>能量型 280Ah系统</h4>
+    <img class="gui-cs" src="../../../static/neng280.png" alt="">
+    <hr>
+    <h4>倍率型</h4>
+    <img class="gui-cs" src="../../../static/beilv.png" alt="">
+    <hr>
   </div>
 </template>
 
