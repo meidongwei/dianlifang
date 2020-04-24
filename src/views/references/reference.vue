@@ -92,7 +92,7 @@
         <h3 class="title">拉萨兴业银行光储一体化后备电源系统</h3>
       </header>
       <div class="block bd-book-description is-size-5 content">
-        <img style="width: 400px;" src="../../../static/anli5.png" alt="">
+        <img style="width: 600px;" src="../../../static/anli5.png" alt="">
         <p>项目背景：</p>
         <ul style="font-size: 16px;">
           <li>拉萨兴业银行光储项目位于拉萨市兴业银行屋顶，该项目利用银行建筑屋顶，建设总装机容量217.8kWp太阳能光伏发电系统，发电系统采用0.4KV自发自用余电上网模式，并网点为用户配电室低压侧。同时采用250kW/600kWh的锂电池进行储能，提供用电经济性；另根据银行需求配置一定容量的UPS电源系统，保证重要负荷不断电。</li>
