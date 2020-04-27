@@ -18,7 +18,7 @@
       <li>支持本地与远程监控</li>
     </ul>
     <hr>
-    <h4>技术参数 | Specification</h4>
+    <h4>技术参数 | Parameter</h4>
     <img src="../../../static/jzx-cs.png" alt="">
   </div>
 </template>

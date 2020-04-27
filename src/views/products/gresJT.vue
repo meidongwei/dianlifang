@@ -23,7 +23,7 @@
       <li>移动式，方便更换使用地点</li>
     </ul>
     <hr>
-    <h4>技术参数 | Specification</h4>
+    <h4>技术参数 | Parameter</h4>
     <img src="../../../static/jtfdj-cs.png" alt="">
   </div>
 </template>

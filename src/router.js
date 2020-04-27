@@ -7,21 +7,19 @@ import intro from '@/views/overview/intro'
 import advantage from '@/views/overview/advantage'
 import location from '@/views/overview/location'
 
-import gres from '@/views/gres'
-import gresW from '@/views/gres/gresW'
-import gresJZ from '@/views/gres/gresJZ'
-import gresJT from '@/views/gres/gresJT'
-import gresX from '@/views/gres/gresX'
+import solution from '@/views/solution'
+import bms from '@/views/solution/bms'
+import gresW from '@/views/solution/gresW'
+import pack from '@/views/solution/pack'
 
 import products from '@/views/products'
-import btyEnergy from '@/views/products/btyEnergy'
-import bms from '@/views/products/bms'
+import gresJT from '@/views/products/gresJT'
+import gresX from '@/views/products/gresX'
 import guiEnergy from '@/views/products/guiEnergy'
 import qianEnergy from '@/views/products/qianEnergy'
 import homeEnergy from '@/views/products/homeEnergy'
 import geliMpcs from '@/views/products/geliMpcs'
 import feigeliMpcs from '@/views/products/feigeliMpcs'
-import mpcs1 from '@/views/products/mpcs1'
 import ems from '@/views/products/ems'
 
 import references from '@/views/references'
@@ -67,10 +65,10 @@ export default new Router({
       ]
     },
     {
-      path: '/gres',
-      name: 'gres',
-      component: gres,
-      redirect: 'gres/gresW',
+      path: '/solution',
+      name: 'solution',
+      component: solution,
+      redirect: 'solution/gresW',
       children: [
         {
           path: 'gresW',
@@ -78,10 +76,23 @@ export default new Router({
           component: gresW
         },
         {
-          path: 'gresJZ',
-          name: 'gresJZ',
-          component: gresJZ
+          path: 'pack',
+          name: 'pack',
+          component: pack
         },
+        {
+          path: 'bms',
+          name: 'bms',
+          component: bms
+        }
+      ]
+    },
+    {
+      path: '/products',
+      name: 'products',
+      component: products,
+      redirect: 'products/gresJT',
+      children: [
         {
           path: 'gresJT',
           name: 'gresJT',
@@ -91,24 +102,6 @@ export default new Router({
           path: 'gresX',
           name: 'gresX',
           component: gresX
-        }
-      ]
-    },
-    {
-      path: '/products',
-      name: 'products',
-      component: products,
-      redirect: 'products/btyEnergy',
-      children: [
-        {
-          path: 'btyEnergy',
-          name: 'btyEnergy',
-          component: btyEnergy
-        },
-        {
-          path: 'bms',
-          name: 'bms',
-          component: bms
         },
         {
           path: 'guiEnergy',
@@ -134,11 +127,6 @@ export default new Router({
           path: 'feigeliMpcs',
           name: 'feigeliMpcs',
           component: feigeliMpcs
-        },
-        {
-          path: 'mpcs1',
-          name: 'mpcs1',
-          component: mpcs1
         },
         {
           path: 'ems',

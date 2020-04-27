@@ -93,27 +93,22 @@ export default {
         },
         {
           id: 2,
-          name: 'GRES',
+          name: '解决方案',
           subList: [
             {
               id: 1,
-              name: '什么是GRES',
+              name: '一体化电源解决方案-GRES',
               val: 'gresW'
             },
             {
               id: 2,
-              name: 'GRES价值',
-              val: 'gresJZ'
+              name: 'Pack核心技术',
+              val: 'pack'
             },
             {
               id: 3,
-              name: 'GRES静态发动机',
-              val: 'gresJT'
-            },
-            {
-              id: 4,
-              name: 'GRES集装箱',
-              val: 'gresX'
+              name: '储能管理技术',
+              val: 'bms'
             }
           ]
         },
@@ -123,62 +118,62 @@ export default {
           subList: [
             {
               id: 301,
-              name: 'MPCS',
+              name: '一体化智能储能系统',
               list: [
                 {
                   id: 1,
-                  name: 'MPCS',
-                  val: 'mpcs1'
-                },
-                {
+                  name: 'GRES静态发电机',
+                  val: 'gresJT'
+                },{
                   id: 2,
+                  name: 'GRES储能集装箱',
+                  val: 'gresX'
+                }
+              ]
+            },
+            {
+              id: 302,
+              name: 'MPCS',
+              list: [
+                {
+                  id: 3,
                   name: '非隔离变型MPCS',
                   val: 'feigeliMpcs'
                 },
                 {
-                  id: 3,
+                  id: 4,
                   name: '隔离变型MPCS',
                   val: 'geliMpcs'
                 }
               ]
             },
             {
-              id: 302,
+              id: 303,
               name: '电池储能系统',
               list: [
                 {
                   id: 5,
-                  name: '电池储能系统',
-                  val: 'btyEnergy'
-                },
-                {
-                  id: 6,
-                  name: 'BMS',
-                  val: 'bms'
-                },
-                {
-                  id: 7,
-                  name: '柜式储能系统',
+                  name: '电池柜储能系统',
                   val: 'guiEnergy'
                 },
                 {
-                  id: 8,
-                  name: '嵌入式储能系统',
+                  id: 6,
+                  name: '19英寸嵌入式储能系统',
                   val: 'qianEnergy'
                 },
                 {
-                  id: 9,
+                  id: 7,
                   name: 'ERA家用储能系统',
                   val: 'homeEnergy'
                 }
               ]
             },
             {
-              id: 303,
+              id: 304,
               name: 'EMS',
               list: [
                 {
-                  id: 10,
+                  id: 8,
                   name: '能源管理系统EMS',
                   val: 'ems'
                 }
