@@ -32,13 +32,13 @@
                 <!-- 带标题的子菜单 -->
                 <div v-if="item.id === 3">
                   <div v-for="sub in item.subList" :key="sub.id">
-                    <!-- <div class="subTitle">{{ sub.name }}</div> -->
+                    <div class="subTitle">{{ sub.name }}</div>
                     <a href="javascript:;" class="navbar-item"
                       v-for="sub2 in sub.list" :key="sub2.id"
                       @click="gotoSub(sub2)">
                       {{ sub2.name }}
                     </a>
-                    <hr class="navbar-divider" v-if="sub.id === 301 || sub.id === 302">
+                    <hr class="navbar-divider" v-if="sub.id === 301 || sub.id === 302 || sub.id === 303">
                   </div>
                 </div>
               </div>
