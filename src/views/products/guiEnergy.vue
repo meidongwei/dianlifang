@@ -22,18 +22,17 @@
     <img class="gui-yycj" src="../../../static/gui-yycj.png" alt="">
     <hr>
     <h4>产品参数 | Parameter</h4>
-    <h4>能量型 100Ah系统</h4>
+    <p>能量型 100Ah系统</p>
     <img class="gui-cs" src="../../../static/neng100.png" alt="">
     <hr>
-    <h4>能量型 120Ah系统</h4>
+    <p>能量型 120Ah系统</p>
     <img class="gui-cs" src="../../../static/neng120.png" alt="">
     <hr>
-    <h4>能量型 280Ah系统</h4>
+    <p>能量型 280Ah系统</p>
     <img class="gui-cs" src="../../../static/neng280.png" alt="">
     <hr>
-    <h4>倍率型</h4>
+    <p>倍率型</p>
     <img class="gui-cs" src="../../../static/beilv.png" alt="">
-    <hr>
   </div>
 </template>
 
@@ -43,10 +42,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
+hr {
+  margin: 50px 0;
+}
 .gui-yycj {
   max-height: 120px;
 }
 .gui-cs {
-  width: 600px;
+  width: 460px;
 }
 </style>

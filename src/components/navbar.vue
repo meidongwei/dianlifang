@@ -3,8 +3,8 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item" href="javascript:;" @click="handleBacktoIndex">
-            <img src="@/assets/logo.png" alt="dianlifang" width="112" height="28">
+          <a class="navbar-item m-img" href="javascript:;" @click="handleBacktoIndex">
+            <img src="@/assets/logo.png" alt="dianlifang">
           </a>
           <div class="navbar-burger burger" @click="handleOpenMenu">
             <span></span>
@@ -252,5 +252,11 @@ export default {
   .subTitle {
     padding-left: 15px;
     color: #acacac;
+  }
+  .m-img {
+    padding: 0 .75rem;
+  }
+  .m-img img {
+    max-height: 2.2rem;
   }
 </style>

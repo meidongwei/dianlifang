@@ -21,13 +21,13 @@
     <img class="gui-yycj" src="../../../static/gui-yycj.png" alt="">
     <hr>
     <h4>产品参数 | Parameter</h4>
-    <h4>±192V</h4>
+    <p>±192V</p>
     <img class="qian192" src="../../../static/qian192.png" alt="">
     <hr>
-    <h4>224V</h4>
+    <p>224V</p>
     <img class="qian224" src="../../../static/qian224.png" alt="">
     <hr>
-    <h4>48V</h4>
+    <p>48V</p>
     <img class="qian48" src="../../../static/qian48.png" alt="">
   </div>
 </template>
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+hr {
+  margin: 50px 0;
+}
 .gui-yycj {
   max-height: 120px;
 }
@@ -45,7 +48,7 @@ export default {
   width: 600px;
 }
 .qian224, .qian48 {
-  width: 340px;
+  width: 320px;
 }
 @media (max-width: 768px) {
   .qian224, .qian48 {

@@ -14,7 +14,7 @@
       <li>单体电芯容量变化不影响系统容量；</li>
     </ul>
     <hr>
-    <h4>BMS三级管理架构</h4>
+    <h3>BMS三级管理架构</h3>
     <img class="sanji" src="../../../static/3ji.png" alt="">
     <hr>
     <img class="bms-cs" src="../../../static/bms-cs.png" alt="">

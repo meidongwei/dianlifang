@@ -16,11 +16,11 @@
       <li>可选配STS实现并离网无缝切换</li>
     </ul>
     <hr>
-    <h4>电路框图</h4>
+    <h4>电路框图︱Schematic diagram</h4>
     <img src="../../../static/geli-dianlu.png" alt="">
     <hr>
     <h4>产品参数 | Parameter</h4>
-    <img src="../../../static/geli-canshu.png" alt="">
+    <img style="width: 700px;" src="../../../static/geli-canshu.png" alt="">
   </div>
 </template>
 
