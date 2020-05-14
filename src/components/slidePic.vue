@@ -15,19 +15,19 @@
         </ul>
       </div>
     </div> -->
-    <div class="m-tabs-mobile">
+    <!-- <div class="m-tabs-mobile">
       <a href="javascript:;" :class="{active: index === nowIndex}"
         v-for="(item, index) in tabList" :keys="item.id"
         @click="handleClick(item, index)">
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import Img1 from '../../static/1.jpg'
-import Img2 from '../../static/2.jpg'
-import Img3 from '../../static/3.jpg'
+// import Img2 from '../../static/2.jpg'
+// import Img3 from '../../static/3.jpg'
 // import Img4 from '../../static/maldives-4.jpg'
 // import Img5 from '../../static/maldives-5.jpeg'
 // import Img6 from '../../static/maldives-6.jpg'
@@ -42,16 +42,16 @@ export default {
           name: 'All-in-one（集成）储能系统',
           url: Img1
         },
-        {
-          id: 2,
-          name: '储能系统 SAVEEN GT 储能变流器',
-          url: Img2
-        },
-        {
-          id: 3,
-          name: '储能系统 SAVEEN MG 多功能混合储能变流器',
-          url: Img3
-        },
+        // {
+        //   id: 2,
+        //   name: '储能系统 SAVEEN GT 储能变流器',
+        //   url: Img2
+        // },
+        // {
+        //   id: 3,
+        //   name: '储能系统 SAVEEN MG 多功能混合储能变流器',
+        //   url: Img3
+        // },
         // {
         //   id: 4,
         //   name: 'STABLEEN 工业不可断电源',
