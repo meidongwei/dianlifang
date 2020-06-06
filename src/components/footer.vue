@@ -12,11 +12,6 @@
   </footer>
 </template>
 
-<script>
-export default {
-}
-</script>
-
 <style lang="css" scoped>
 .copyright {
   font-size: 14px;
