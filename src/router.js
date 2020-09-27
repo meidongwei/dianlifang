@@ -6,6 +6,7 @@ import overview from '@/views/overview'
 import intro from '@/views/overview/intro'
 import advantage from '@/views/overview/advantage'
 import location from '@/views/overview/location'
+import news from '@/views/overview/news'
 
 import solution from '@/views/solution'
 import bms from '@/views/solution/bms'
@@ -57,10 +58,15 @@ export default new Router({
           name: 'advantage',
           component: advantage
         },
+        // {
+        //   path: 'location',
+        //   name: 'location',
+        //   component: location
+        // }
         {
-          path: 'location',
-          name: 'location',
-          component: location
+          path: 'news',
+          name: 'news',
+          component: news,
         }
       ]
     },

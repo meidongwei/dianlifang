@@ -11,39 +11,4 @@
 </template>
 
 <style lang="scss" scoped>
-.time-box {
-  display: flex;
-  margin-bottom: 15px;
-  .left {
-    width: 100px;
-    font-size: 20px;
-    color: #6945a4;
-    font-weight: bold;
-    padding-right: 15px;
-    position: relative;
-  }
-  .left::after {
-    content: '';
-    width: 5px;
-    height: 5px;
-    background-color: #6945a4;
-    border-radius: 50%;
-    position: absolute;
-    right: -3px;
-    top: 10px;
-  }
-  .right {
-    padding-left: 15px;
-    position: relative;
-  }
-  .right::after {
-    content: '';
-    width: 2px;
-    height: 70%;
-    background-color: #dedede;
-    position: absolute;
-    left: -1px;
-    top: 18px;
-  }
-}
 </style>

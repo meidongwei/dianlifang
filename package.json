@@ -11,6 +11,7 @@
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-headroom": "^0.10.1",
+    "vue-pdf": "^4.1.0",
     "vue-router": "^3.1.5"
   },
   "devDependencies": {

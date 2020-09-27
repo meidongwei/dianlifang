@@ -84,10 +84,15 @@ export default {
               name: '核心优势',
               val: 'advantage'
             },
+            // {
+            //   id: 3,
+            //   name: '位置',
+            //   val: 'location'
+            // }
             {
-              id: 3,
-              name: '位置',
-              val: 'location'
+              id: 4,
+              name: '新闻',
+              val: 'news'
             }
           ]
         },
